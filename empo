@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #e0eafc, #cfdef3);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin-top: 20px;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #4a6fa5;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            padding: 8px 0;
+        }
+
+        .projects div {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: #f4f7fb;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <!-- EDIT HERE: Replace profile.jpg with your image file -->
+        <img src="https://imgur.com/a/X2tsmKT" alt="My Profile Picture">
+
+        <!-- EDIT HERE: Your Name -->
+        <h1>Dan Jenniel M. Cedeño</h1>
+
+        <!-- EDIT HERE: Short Title -->
+        <p>Aspiring IT Professional | Dreamer | Creator</p>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section>
+        <h2>About Me</h2>
+        <!-- EDIT HERE: Your personal description -->
+        <p>
+            Hi! I'm a passionate individual who loves technology, creativity, and learning new things.
+            I enjoy building projects, exploring ideas, and turning imagination into reality.
+        </p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <!-- EDIT HERE: Add your skills -->
+            <li>💻 HTML & CSS</li>
+            <li>📊 Problem Solving</li>
+            <li>🎨 Creative Thinking</li>
+            <li>🔧 Project Development</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section>
+        <h2>Contact Me</h2>
+        <!-- EDIT HERE: Your contact details -->
+        <p>Email: cedenodan212@gmail.com</p>
+        <p>Facebook: Dan Jenniel Cedeño</p>
+        <p>Instagram: @dandalandandandadan</p>
+    </section>
+
+    <footer>
+        G11 STEM FORTITUDE
+    </footer>
+
+</body>
+</html>
